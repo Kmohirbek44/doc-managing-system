@@ -1,3 +1,8 @@
+pip install gevent --pre
+pip install auto-py-to-exe
+py -3.8 -m pip install
+psycopg2-binary==2.8.3
+conda install -c conda-forge dlib
 argcomplete==1.10.0
 asgiref==3.2.7
 atomicwrites==1.3.0
