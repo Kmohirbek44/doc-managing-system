@@ -77,8 +77,13 @@ WSGI_APPLICATION = 'SuperKrutoyDocumentooborot.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'dcolj0bo6nhuoe',
+        'USER':'olhjcknnjkgyqn',
+        'PASSWORD':'79661977cef6c2eff5d0669ddeab6ad4506dd4dc83992a7c3bb57aa52bc18a75',
+        'HOST':'ec2-34-247-72-29.eu-west-1.compute.amazonaws.com',
+        'PORT':'5432',
+
     }
 }
 AUTHENTICATION_BACKENDS = (
